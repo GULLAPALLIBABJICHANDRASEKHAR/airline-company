@@ -1,0 +1,99 @@
+/* footer styling start */
+.footer-container {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+}
+.footer-heading {
+    text-align: center;
+}
+.footer-heading .header1 {
+    color: var(--clr-white);
+    text-transform: capitalize;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.footer-heading form input {
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    background-color: transparent;
+    outline-width: 0px;
+    border: none;
+    color: var(--clr-white);
+    border-bottom: 1px solid var(--clr-white);
+}
+.footer-heading form button {
+    color: var(--clr-white);
+    background-color: transparent;
+    border: none;
+}
+.footer-heading form button i {
+    color: var(--clr-white);
+    font-size: 20px;
+}
+.footer-center .header {
+    color: var(--clr-white);
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.footer-about p {
+    color: var(--clr-white);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.footer-about .social-links a i {
+    color: var(--clr-white);
+    padding: 7px;
+    border-radius: var(--radius1);
+    background-color: #4d70e7;
+    transition: var(--transition);
+}
+.footer-about .social-links a i:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+}
+.footer-links ul li {
+    margin: 20px;
+}
+.footer-links ul li .footer-link {
+    color: var(--clr-white);
+    text-transform: capitalize;
+    font-size: 16px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.footer-address .address-desc, .footer-address .tele-num, .footer-address .mail {
+    color: var(--clr-white);
+    margin: 20px;
+}
+.footer-app img {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.footer-copyrights p {
+    color: var(--clr-white);
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+@media screen and (min-width: 992px) {
+    .footer-links-section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer-heading form input {
+        width: 400px;
+    }
+    .footer-copyrights p {
+        font-size: 22px;
+    }
+}
+/* footer styling end */
