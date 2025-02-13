@@ -483,8 +483,13 @@ img {
     justify-content: center;
     align-items: center;
 }
+.construction-section-center .img-con, .construction-section-center .img-con img {
+    width: 100%;
+    height: 100%;
+}
 .const-info .header {
     color: var(--clr-purple-dark);
+    text-align: center;
 }
 /* construction section styling end */
 
